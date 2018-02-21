@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<br>
+
+	{% for game in toy %}
+		<br>
+		<a href="/detail/{{game.id}}">{{ game.name }}</a><br>
+	{% endfor %}
+
+
+</body>
+</html>
